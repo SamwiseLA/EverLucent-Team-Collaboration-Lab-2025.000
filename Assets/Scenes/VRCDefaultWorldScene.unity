@@ -185,7 +185,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b014f7a623a352f43b23ff3bf7b47b8b, type: 2}
+  - {fileID: 2100000, guid: b1ab0436f9696fd428a8a1d4311d63eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -577,12 +577,12 @@ PrefabInstance:
     - target: {fileID: 7054335473472544824, guid: b368a5866024b5f428c4b6f6df67e28d,
         type: 3}
       propertyPath: m_text
-      value: Your Name Here
+      value: Everlucent
       objectReference: {fileID: 0}
     - target: {fileID: 7054335473472544824, guid: b368a5866024b5f428c4b6f6df67e28d,
         type: 3}
       propertyPath: m_fontSize
-      value: 67.15
+      value: 89.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
