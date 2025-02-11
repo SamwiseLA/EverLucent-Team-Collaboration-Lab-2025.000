@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: DisplaObjectNameInTextTMP
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 0bc9553180c089642b09db526dd99381,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export SphereTexTMP\r\n    .export Object\r\n   
+    \r\n    __instance_0: %TMProTextMeshProUGUI, null\r\n    __value_0: %SystemString,
+    null\r\n    __instance_1: %UnityEngineGameObject, this\r\n    SphereTexTMP: %TMProTextMeshProUGUI,
+    null\r\n    Object: %UnityEngineGameObject, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    .export _start\r\n    \r\n    _start:\r\n    \r\n        PUSH, SphereTexTMP\r\n       
+    PUSH, __instance_0\r\n        COPY\r\n        PUSH, Object\r\n        PUSH, __instance_1\r\n       
+    COPY\r\n        PUSH, __instance_1\r\n        PUSH, __value_0\r\n        EXTERN,
+    \"UnityEngineGameObject.__get_name__SystemString\"\r\n        PUSH, __instance_0\r\n       
+    PUSH, __value_0\r\n        EXTERN, \"TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: Variable_TMProTextMeshProUGUI
+      uid: 7667f76d-3a9c-40be-8403-298bd18ad030
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|SphereTexTMP
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_UnityEngineGameObject
+      uid: eefeab05-f423-41aa-8f9d-3392446bec44
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Object
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Event_Start
+      uid: 7380d2ab-6928-41cb-b630-e676d22519be
+      position: {x: 315, y: 86}
+      nodeUIDs: []
+      flowUIDs:
+      - 174d2632-2e00-49fd-a483-0a88ef8cb65f
+      nodeValues: []
+    - fullName: Get_Variable
+      uid: 90191527-3afd-4fdc-b502-ad7c00471c3f
+      position: {x: 462, y: 230}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|7667f76d-3a9c-40be-8403-298bd18ad030
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid
+      uid: 174d2632-2e00-49fd-a483-0a88ef8cb65f
+      position: {x: 462, y: 86}
+      nodeUIDs:
+      - 90191527-3afd-4fdc-b502-ad7c00471c3f|0
+      - a0efd9a0-a1d5-495e-a2a2-e6b08cec8c63|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Get_Variable
+      uid: 1ea1206e-c1b9-4d41-9ce0-761575fd51a8
+      position: {x: 462, y: 409}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|eefeab05-f423-41aa-8f9d-3392446bec44
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineGameObject.__get_name__SystemString
+      uid: a0efd9a0-a1d5-495e-a2a2-e6b08cec8c63
+      position: {x: 462, y: 326}
+      nodeUIDs:
+      - 1ea1206e-c1b9-4d41-9ce0-761575fd51a8|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    updateOrder: 0
+  graphElementData: []
+  version: 1.0.0
+  showAssembly: 0
