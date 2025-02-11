@@ -577,12 +577,12 @@ PrefabInstance:
     - target: {fileID: 7054335473472544824, guid: b368a5866024b5f428c4b6f6df67e28d,
         type: 3}
       propertyPath: m_text
-      value: SamwiseLA
+      value: Your Name Here
       objectReference: {fileID: 0}
     - target: {fileID: 7054335473472544824, guid: b368a5866024b5f428c4b6f6df67e28d,
         type: 3}
       propertyPath: m_fontSize
-      value: 89.5
+      value: 67.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
